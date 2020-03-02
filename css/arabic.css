@@ -54,18 +54,6 @@ h3 {
     font-weight: 200;
 }
 
-.team-member-caption {
-    padding: 20px;
-}
-
-.team-member .team-member-caption h4 {
-    font-size: 20px;
-}
-
-.team-member {
-    display: block;
-}
-
 .tp-simpleresponsive .slider-button {
     font-size: 25px;
 }
@@ -80,3 +68,26 @@ h3 {
     font-size: 14px;
 }
 
+.nav {
+    display: block;
+}
+
+.team-member-caption {
+    padding: 20px;
+}
+
+.team-member .team-member-caption h4 {
+    font-size: 20px;
+}
+
+.team-member {
+    display: block;
+}
+
+@media (min-width: 992px) {
+
+    .about ul.nav.nav-tabs li a,
+    .about ul.nav.nav-tabs li a.active {
+        padding: 10px 0 0;
+    }
+}
