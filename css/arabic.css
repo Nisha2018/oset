@@ -1,8 +1,82 @@
-body{
-	text-align: right;
+body {
+    text-align: right;
 }
 
-.nav-menu ul.nav-menu-inner li a{
-	font-size: 18px;
+p,
+.info-map-boxes-item p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 58px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.nav-menu ul.nav-menu-inner li a {
+    font-size: 18px;
+}
+
+.projectmanager h3.desc {
+    text-align: right;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.projectmanager .list {
+    text-align: right;
+    list-style: none;
+    font-size: 16px;
+}
+
+.top-text h4 {
+    font-size: 24px;
+}
+
+.about .about-content .title-about {
+    font-size: 35px;
+}
+
+.about ul.nav.nav-tabs li a,
+.about ul.nav.nav-tabs li a.active {
+    font-size: 20px;
+}
+
+.services .services-box-item-cover:after {
+    font-size: 20px;
+}
+
+.portfolio .nav-pills li,
+.portfolio .caption h3 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.team-member-caption {
+    padding: 20px;
+}
+
+.team-member .team-member-caption h4 {
+    font-size: 20px;
+}
+
+.team-member {
+    display: block;
+}
+
+.tp-simpleresponsive .slider-button {
+    font-size: 25px;
+}
+
+.latest-posts-content .mx-auto .custom-button,
+.custom-button,
+.info-map-boxes-item h1 {
+    font-size: 20px;
+}
+
+.footer .container p:first-child {
+    font-size: 14px;
 }
 
