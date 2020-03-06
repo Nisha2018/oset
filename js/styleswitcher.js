@@ -8,18 +8,18 @@ jQuery(document).ready(function() {
         if (jQuery("#showSwitcher").is(":visible")) {
 
 			var _identifier = "#showSwitcher";
-            jQuery("#switcher").animate({"margin-left": "0px"}, 500).show();
+            jQuery("#switcher").animate({"margin-right": "0px"}, 500).show();
 			createCookie("switcher_visible", 'true', 365);
 
         } else {
 
 			var _identifier = "#switcher";
-            jQuery("#showSwitcher").show().animate({"margin-left": "0"}, 500);
+            jQuery("#showSwitcher").show().animate({"margin-right": "0"}, 500);
 			createCookie("switcher_visible", 'false', 365);
 
         }
 
-		jQuery(_identifier).animate({"margin-left": "-500px"}, 500, function () {
+		jQuery(_identifier).animate({"margin-right": "-500px"}, 500, function () {
 			jQuery(this).hide();
 		});
 

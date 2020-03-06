@@ -81,7 +81,7 @@ body.double-diagonal .logos::before,
 	border-color: #daa520;
 }
 .projectmanagerpicture {
-    border: 12px solid #daa520;
+    border: 5px solid #daa520;
 }
 .portfolio .nav-pills li {
     border: 2px solid #daa520;
@@ -92,9 +92,7 @@ body.double-diagonal .logos::before,
 .blog-page .banner .content .top-text hr {
 	border-top:5px solid #daa520;
 }
-.portfolio .caption h3 {
-	border-left: 3px solid #daa520;
-}
+
 .team-member-caption {
 	border-top: 3px solid #daa520;
 }

@@ -2,6 +2,10 @@ body {
     text-align: right;
 }
 
+p,h1,h3,a{
+    direction: rtl;
+}
+
 p,
 .info-map-boxes-item p {
     font-size: 16px;
@@ -19,6 +23,10 @@ h3 {
     font-size: 18px;
 }
 
+.nav-menu ul.nav-menu-inner{
+    direction: rtl;
+}
+
 .projectmanager h3.desc {
     text-align: right;
     font-size: 35px;
@@ -27,7 +35,7 @@ h3 {
 
 .projectmanager .list {
     text-align: right;
-    list-style: none;
+    direction: rtl;
     font-size: 16px;
 }
 
@@ -72,16 +80,28 @@ h3 {
     display: block;
 }
 
-.team-member-caption {
-    padding: 20px;
-}
-
 .team-member .team-member-caption h4 {
     font-size: 20px;
 }
 
 .team-member {
     display: block;
+}
+
+.services .services-box-item-content h2 {
+    font-size: 20px;
+
+}
+
+.services .services-box-item-content p {
+    font-size: 15px;
+}
+
+.portfolio .caption h3 {
+    border-right: 3px solid #daa520;
+    padding-right: 15px;
+    border-left: none;
+    font-size: 18px;
 }
 
 @media (min-width: 992px) {
